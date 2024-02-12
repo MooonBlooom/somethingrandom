@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Lucas Wedge">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="../CSS Files/all.css">
+        <link rel="stylesheet" href="../CSS Files/default_dark.css">
+        <link id="colors" rel="stylesheet" href="../CSS Files/default.css">
+        <title>Luc's Theater</title>
+    </head>
+    <body id="top" class="container-fluid light">
+        <div id="ad">
+            <button type="button" id="x">x</button>
+            <br>
+            <a id="ad_link" href="" target="_blank">
+                <img class="img-fluid" id="ad_img" src="" alt="ad">
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 id="header" class="light">Luc's Theater! &#127754;</h1>
+                <p class="subtitle">
+                    Come and watch some of my favorite movies and shows!
+                    <br> Showing times have yet to be determined.
+                </p>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li id="jump">Jump to:</li>
+                        <li><a href="#movies">Movies</a></li>
+                        <li><a href="#shows">TV Shows</a></li>
+                    </ul>
+                </nav>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <button type="button" class="rounded" id="lightModeButton">Light Mode</button>
+                <button type="button" class="rounded" id="darkModeButton">Dark Mode</button>
+            </div>
+        </div>
+        <div class="row light_prices rounded bubble">
+            <div class="col-sm-12">
+                <h2>Entry Prices</h2>
+                <ul>
+                    <li>$10 per adult/teenager</li>
+                    <li>$5 per child</li>
+                    <li>Free entry for babies</li>
+                    <li id="Coastal">Coastal Carolina students get a 20% discount on both entry and snacks!
+                        <br>(must show CINO Card)
+                    </li>
+                </ul>
+                <h2><a href="menu.html">Menu</a></h2>
+                <h2><a href="playlist.html">Lobby Playlist</a></h2>
+                <h2><a href="api.html">Film API</a></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <audio controls loop>
+                    <source src="../Audio/bahari_bargains.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+        <div class="row">
+            <div id="movies" class="col-sm-12"><hr><h2>Movies</h2></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h3><a class="title" href="felidae.html">Felidae</a></h3>
+                <p>Rated: R</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/felidae_poster.jfif" alt="Felidae movie poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        Housecat Francis has just moved to a new neighborhood with his owner Gus and
+                        barely has time to get settled in before he is thrust into a feline murder
+                        mystery.
+                    </p>
+                </details>
+            </div>
+            <div class="col-sm-3">
+                <h3><a class="title" href="lilo_and_stitch.html">Lilo &amp; Stitch</a></h3>
+                <p>Rated: PG</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/lilo_and_stitch_poster.jpg" alt="Lilo &amp; Stitch movie poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        When the alien creation Experiment 626 escapes his creator and crashes in Hawaii,
+                        he meets Lilo, a young Native Hawaiian girl being raised by her older sister.
+                        Chaos ensues.
+                    </p>
+                </details>
+            </div>
+            <div class="col-sm-3">
+                <h3><a class="title" href="balto.html">Balto</a></h3>
+                <p>Rated: G</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/balto_poster.jpg" alt="Balto poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        When diptheria breaks out in the small town of Nome, Alaska, the wolf-dog Balto
+                        decides to help despite the rejection he's faced from humans and dogs alike.
+                    </p>
+                </details>
+            </div>
+            <div class="col-sm-3">
+                <h3><a class="title" href="luca.html">Luca</a></h3>
+                <p>Rated: PG</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/luca_poster.jpg" alt="Luca poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        Luca, a sea monster who can disguise as a human on land, decides to adventure beyond
+                        the ocean depths with his friend Alberto.
+                    </p>
+                </details>
+            </div>
+            <!--
+            <div class="col-sm-3">
+                <h3><a class="title" href="elemental.html">Elemental</a></h3>
+                <p>Rated: PG</p>
+                <img class="rounded img-fluid poster" src="../../Messing Around/Images/elemental_poster.jpg" alt="Elemental poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                    </p>
+                </details>
+            </div>
+            -->
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h3><a class="title" href="trolls_3.html">Trolls: Band Together</a></h3>
+                <p>Rated: PG</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/alt_trolls_poster.webp" alt="Trolls 3 poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        Branch's long lost brother John Dory finds him and takes him on an adventure to save
+                        their brother Floyd (played by Troye Sivan), who has been kidnapped and imprisoned in a diamond spray bottle.
+                    </p>
+                </details>
+            </div>
+            <div class="col-sm-3">
+                <h3><a class="title" href="surfs_up.html">Surf's Up</a></h3>
+                <p>Rated: PG</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/surfs_up_poster.jpg" alt="Surf's Up movie poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        Young rockhopper penguin Cody Maverick travels from his home in
+                        Shiverpool, Antarctica to the famous Pen Gu Island to participate
+                        in the 10th Annual Big Z Memorial Surf-off. Along the way, he discovers
+                        the true meaning of surfing.
+                    </p>
+                </details>
+            </div>
+            <div class="col-sm-3">
+                <h3><a class="title" href="turning_red.html">Turning Red</a></h3>
+                <p>Rated: PG</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/turning_red_poster.jpg" alt="Turning Red poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        Meilin Lee's life was going so smoothly until one night she has a nightmare and wakes up with the ability to
+                        turn into a giant, fluffy red panda when she has strong emotions.
+                    </p>
+                </details>
+            </div>
+            <div class="col-sm-3">
+                <h3><a class="title" href="wolfwalkers.html">Wolfwalkers</a></h3>
+                <p>Rated: PG</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/wolfwalkers_poster.jpg" alt="Wolfwalkers poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        Rookie hunter Robyn move to a town in Ireland where wolves are thought to be from the devil. Out in the forest one day,
+                        Robyn meets Mebh, a Wolfwalker, and she becomes what her father and the townsfolk fear most.
+                    </p>
+                </details>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h3><a class="title" href="fnaf.html">Five Nights At Freddy's</a></h3>
+                <p>Rated: PG-13</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/fnaf_poster.webp" alt="FNAF poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        Desperate after being fired from several jobs, Mike takes a job as night guard at the now shutdown
+                        Freddy Fazbear's Pizza so he can take care of his little sister Abby. He soon quickly realizes that
+                        not everything is as it seems.
+                    </p>
+                </details>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div id="shows" class="col-sm-12"><h2>TV Shows</h2></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h3><a class="title" href="hdm.html">His Dark Materials</a></h3>
+                <p>Rated: TV-14</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/hdm_poster.webp" alt="His Dark Materials poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        In an alternate world where human souls take the form of animals, Lyra Belacqua becomes
+                        entangled in a mystery involves kidnapped children, the North, and the mysterious Dust.
+                    </p>
+                </details>
+            </div>
+            <div class="col-sm-3">
+                <h3><a class="title" href="banana_fish.html">Banana Fish</a></h3>
+                <p>Rated: 16+</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/banana_fish_poster.png" alt="Banana Fish poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        American gang leader Ash Lynx teams up with Japanese photographer
+                        Eiji Okumura to solve a mystery with nothing but a bottle of white powder, an address,
+                        and a dying man's final words: "Banana Fish."
+                    </p>
+                </details>
+            </div>
+            <div class="col-sm-3">
+                <h3><a class="title" href="the_owl_house.html">The Owl House</a></h3>
+                <p>Rated: Y-7</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/the_owl_house_poster.jpg" alt="The Owl House poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        When the quirky teenager Luz Noceda stumbles through a portal into the mystical
+                        Boiling Isles, she decides to stay and learn magic with wanted criminal Eda the Owl
+                        Lady and the tiny but mighty King of demons.
+                    </p>
+                </details>
+            </div>
+            <div class="col-sm-3">
+                <h3><a class="title" href="atla.html">Avatar: The Last Airbender</a></h3>
+                <p>Rated: Y-7</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/atla_poster.jpg" alt="ATLA poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        In a world where some people are able to control the elements water, earth, fire and air,
+                        the Avatar is the only one who can master all the elements and defeat Fire Lord Ozai, a fierce
+                        dictator bent on world domination. But what happens when the Avatar is a kid who just wants to
+                        play around? And he only knows one element?
+                    </p>
+                </details>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h3><a class="title" href="gravity_falls.html">Gravity Falls</a></h3>
+                <p>Rated: Y-7</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/gravity_falls_poster.jpg" alt="Gravity Falls poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        Mabel and Dipper Pines are spending the summer with their Grunkle Stan at his tourist trap the Mystery Shack in
+                        Gravity Falls, Oregon. On the first day, Dipper finds a mysterious journal in the forest warning him that in this
+                        town he cannot trust anyone.
+                    </p>
+                </details>
+            </div>
+            <div class="col-sm-3">
+                <h3><a class="title" href="nichijou.html">Nichijou (My Ordinary Life)</a></h3>
+                <p>Rated: ???</p>
+                <img class="rounded img-fluid poster" src="../Images/posters/nichijou_poster.jpg" alt="Nichijou poster">
+                <details>
+                    <summary>Wondering what it's about? CLICK HERE!</summary>
+                    <p>
+                        I think it's best to go into this show blind lol. All I'll say is that it's chaotic af.
+                    </p>
+                </details>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <img id="prank" class="rounded" src="../Images/other/trololol.png" alt="troll face">
+                </a>
+                <hr>
+            </div>
+        </div>
+        <div>
+            <footer>
+                <p id="footer" class="light">
+                    <a href="#top">Back to top</a>
+                    <br><a href="about_me.html">About me</a>
+                    <br><a href="contact.html">Contact us</a>
+                    <br>Copyright Luc Creations&copy;
+                    <br>Images, videos, and audio are not owned by me. This is a personal project that I am not financially profitting from!
+                    <br>Sponsors:
+                    <br><a href="https://www.coastal.edu/index.php" target="_blank">Coastal Carolina University</a>
+                    <br> <a href="https://www.troyesivan.com/" target="_blank">Troye Sivan</a>
+                    <br><a href="https://classic.animaljam.com/en" target="_blank">Animal Jam Classic</a>
+                    <br><a href="https://transtape.life/" target="_blank">TransTape</a>
+                    <br><a href="https://www.sunbeltrentals.com/" target="_blank">Sunbelt Rentals</a>
+                </p>
+            </footer>
+        </div>
+        <script type="text/Javascript" src="../JavaScript Files/all.js"></script>
+        <!--<script type="text/Javascript" src="../JavaScript Files/cookie.js"></script>-->
+    </body>
+</html>

@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Lucas Wedge">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="../CSS Files/all.css">
+        <link rel="stylesheet" href="../CSS Files/default_dark.css">
+        <link id="colors" rel="stylesheet" href="../CSS Files/default.css">
+        <title>Lobby Playlist</title>
+    </head>
+    <body class="container-fluid light">
+        <div id="ad">
+            <button type="button" id="x">x</button>
+            <br>
+            <a id="ad_link" href="" target="_blank">
+                <img class="img-fluid" id="ad_img" src="" alt="CCU ad">
+            </a>
+        </div>
+        <div>
+            <h1 id="header">Lobby Songs</h1>
+            <p class="subtitle">
+                Did you hear a song in the lobby and go "whoa, what is that?" Well,
+                you're in luck! Here's a list of the lobby songs!
+            </p>
+            <p>
+                Note: Some songs contain strong language. They are marked.
+            </p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li id="jump">Jump to: <a href="#note">additional info</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-12">
+                <button type="button" class="rounded" id="lightModeButton">Light Mode</button>
+                <button type="button" class="rounded" id="darkModeButton">Dark Mode</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <audio controls loop>
+                    <source src="../Audio/jam_on.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+        <div>
+            <table>
+                <!--<caption>Lobby Songs!</caption>-->
+                <thead>
+                    <tr>
+                        <th scope="col">Cover</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Artist(s)</th>
+                        <th scope="col">Album</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Duration</th>
+                        <th scope="col">Explicit?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#peach">
+                                <img class="album" src="../Images/albums/pop_monster.jpg" alt="Don't Feed the Pop Monster cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=Eiht451O8fM" target="_blank">"Peach"</a></td>
+                        <td>BROODS</td>
+                        <td class="album">Don't Feed the Pop Monster</td>
+                        <td>2018</td>
+                        <td>4:15</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#yoshi">
+                                <img class="album" src="../Images/albums/first_glass_beach.png" alt="the first glass beach album cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=ElkuSVwNx_o" target="_blank">"yoshi's island"</a></td>
+                        <td>glass beach</td>
+                        <td class="album">the first glass beach album</td>
+                        <td>2019</td>
+                        <td>6:18</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#heaven">
+                                <img class="album" src="../Images/albums/bloom.png" alt="Bloom cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=ncoOwXNVpDc" target="_blank">"What A Heavenly Way To Die"</a></td>
+                        <td>Troye Sivan</td>
+                        <td class="album">Bloom</td>
+                        <td>2018</td>
+                        <td>3:07</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#woods">
+                                <img class="album" src="../Images/albums/strange_trails.jpg" alt="Strange Trails cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=AJOsLdBqbPA" target="_blank">"Meet Me in the Woods"</a></td>
+                        <td>Lord Huron</td>
+                        <td class="album">Strange Trails</td>
+                        <td>2015</td>
+                        <td>4:21</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#california">
+                                <img class="album" src="../Images/albums/if_you_can_believe.png" alt="If You Can Believe... cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=KOok1WzZbOY" target="_blank">"California Dreamin'"</a></td>
+                        <td>The Mamas &amp; the Papas</td>
+                        <td class="album">If You Can Believe Your Eyes &amp; Ears</td>
+                        <td>1965</td>
+                        <td>2:42</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#ppp">
+                                <img class="album" src="../Images/albums/depression_cherry.png" alt="Depression Cherry cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=NFhJRTdmviA" target="_blank">"PPP"</a></td>
+                        <td>Beach House</td>
+                        <td class="album">Depression Cherry</td>
+                        <td>2015</td>
+                        <td>6:09</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#friday">
+                                <img class="album" src="../Images/albums/teenage_dream.png" alt="Teenage Dream cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=KlyXNRrsk4A" target="_blank">"Last Friday Night (T.G.I.F)"</a></td>
+                        <td>Katy Perry</td>
+                        <td class="album">Teenage Dream</td>
+                        <td>2011</td>
+                        <td>3:51</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#radio">
+                                <img class="album" src="../Images/albums/untitled.png" alt="Untitled album cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=z0NfI2NeDHI" target="_blank">"Radio"</a></td>
+                        <td>Rammstein</td>
+                        <td>untitled*</td>
+                        <td>2019</td>
+                        <td>4:37</td>
+                        <td>Nein (No)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#god">
+                                <img class="album" src="../Images/albums/badlands.png" alt="Badlands cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=bUhJRQSs6UQ" target="_blank">"Young God"</a></td>
+                        <td>Halsey</td>
+                        <td class="album">Badlands</td>
+                        <td>2015</td>
+                        <td>3:00</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#long">
+                                <img class="album" src="../Images/albums/long_lost.jpg" alt="Long Lost cost">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=G2JmQ-j0jlc" target="_blank">"Long Lost"</a></td>
+                        <td>Lord Huron</td>
+                        <td class="album">Long Lost</td>
+                        <td>2021</td>
+                        <td>4:44</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#time">
+                                <img class="album" src="../Images/albums/dark_side_of_the_moon.png" alt="The Dark Side of the Moon cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=Qr0-7Ds79zo" target="_blank">"Time"</a></td>
+                        <td>Pink Floyd</td>
+                        <td class="album">The Dark Side of the Moon</td>
+                        <td>1973</td>
+                        <td>6:54</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#snow">
+                                <img class="album" src="../Images/albums/midnights_til_dawn.png" alt="Midnights cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=2CnUYMmEHrs" target="_blank">"Snow on the Beach (feat. More Lana Del Rey)"</a></td>
+                        <td>Taylor Swift, Lana Del Rey</td>
+                        <td class="album">Midnights (The Til Dawn Edition)</td>
+                        <td>2023^</td>
+                        <td>3:49</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#las_vegas">
+                                <img class="album" src="../Images/albums/heaven_or_las_vegas.png" alt="Heaven or Las Vegas cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=6KnYw4EwYGc" target="_blank">"Heaven or Las Vegas"</a></td>
+                        <td>Cocteau Twins</td>
+                        <td class="album">Heaven or Las Vegas</td>
+                        <td>1990</td>
+                        <td>4:58</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#chinese">
+                                <img class="album" src="../Images/albums/punisher.jpg" alt="Punisher cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=i63yumCNdJs" target="_blank">"Chinese Satellite"</a></td>
+                        <td>Pheobe Bridgers</td>
+                        <td class="album">Punisher</td>
+                        <td>2020</td>
+                        <td>3:37</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#prayer">
+                                <img class="album" src="../Images/albums/sympa.jpg" alt="Sympa cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=L-Bzhpm8h0o" target="_blank">"Prayer X"</a></td>
+                        <td>King Gnu</td>
+                        <td class="album">Sympa</td>
+                        <td>2019</td>
+                        <td>3:15</td>
+                        <td>いや (No)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#gooey">
+                                <img class="album" src="../Images/albums/zaba.jpg" alt="ZABA cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=jeo3an2M_Lo" target="_blank">"Gooey"</a></td>
+                        <td>Glass Animals</td>
+                        <td class="album">ZABA</td>
+                        <td>2014</td>
+                        <td>4:49</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#blue">
+                                <img class="album" src="../Images/albums/blue_neighbourhood.webp" alt="Blue Neighbourhood cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=rB4Hggrmrtc" target="_blank">"BLUE"</a></td>
+                        <td>Troye Sivan, Alex Hope</td>
+                        <td class="album">Blue Neighbourhood</td>
+                        <td>2015</td>
+                        <td>3:31</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#milk">
+                                <img class="album" src="../Images/albums/the_milk_carton.jpg" alt="The Milk Carton cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=9nClbZEZnwY" target="_blank">"The Milk Carton"</a></td>
+                        <td>Madilyn Mei</td>
+                        <td>(none)****</td>
+                        <td>2023</td>
+                        <td>5:10</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#pool">
+                                <img class="album" src="../Images/albums/when_we_were_friends.png" alt="When We Were Friends cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=IYvnaYipF4I" target="_blank">"Pool House"</a></td>
+                        <td>The Backseat Lovers</td>
+                        <td class="album">When We Were Friends</td>
+                        <td>2018</td>
+                        <td>4:29</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#bow">
+                                <img class="album" src="../Images/albums/dear_agony.jpg" alt="Dear Agony cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=m32Bn0HJ8xw" target="_blank">"I Will Not Bow"</a></td>
+                        <td>Breaking Benjamin</td>
+                        <td class="album">Dear Agony</td>
+                        <td>2009</td>
+                        <td>3:36</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#winter">
+                                <img class="album" src="../Images/albums/all_my_demons.jpg" alt="All My Demons... cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=FYFNzSTVvJk" target="_blank">"Winter Bird"</a></td>
+                        <td>AURORA</td>
+                        <td class="album">All My Demons Greeting Me as a Friend</td>
+                        <td>2016</td>
+                        <td>4:04</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#disturbia">
+                                <img class="album" src="../Images/albums/good_girl_reloaded.png" alt="Good Girl Gone Bad: Reloaded cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=E1mU6h4Xdxc" target="_blank">"Disturbia"</a></td>
+                        <td>Rihanna</td>
+                        <td class="album">Good Girl Gone Bad: Reloaded</td>
+                        <td>2008</td>
+                        <td>3:58</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#alleluia">
+                                <img class="album" src="../Images/albums/le_chant.jpg" alt="Le chant des cathédrales cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=mNMQu5LXaeI&lc=UgxnuUtHfxB9LQKTnw14AaABAg" target="_blank">"Alleluia, Nativitas"</a></td>
+                        <td>Pérotin, Ensemble Gilles Binchois, Dominique Vellard**</td>
+                        <td class="album">Les chant des cathédrales</td>
+                        <td>2003**</td>
+                        <td>9:29</td>
+                        <td>Minimē (No)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#candle">
+                                <img class="album" src="../Images/albums/candleburn.jpg" alt="CANDLEBURN cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=eKTaPbV7qWs" target="_blank">"CANDLEBURN (Dorm Demo)"</a></td>
+                        <td>Rabbitology</td>
+                        <td>(none)****</td>
+                        <td>2023</td>
+                        <td>3:11</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#turn">
+                                <img class="album" src="../Images/albums/greatest_hits.jpg" alt="Greatest Hits cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=t9G6Ec1DDlc" target="_blank">"Turn The Page - Live"</a></td>
+                        <td>Bob Segar</td>
+                        <td class="album">Greatest Hits<span class="stars">***</span></td>
+                        <td>1994</td>
+                        <td>5:02</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#strawberries">
+                                <img class="album" src="../Images/albums/strawb_&_cig.png" alt="Strawberries & Cigarettes cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=Mw5mAozjC6M" target="_blank">"Strawberries &amp; Cigarettes"</a></td>
+                        <td>Troye Sivan</td>
+                        <td>(none)****</td>
+                        <td>2018</td>
+                        <td>3:21</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#party">
+                                <img class="album" src="../Images/albums/the_time_of_our_lives.png" alt="The Time of Our Lives cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=-AJVcPpGuig" target="_blank">"Party In The U.S.A"</a></td>
+                        <td>Miley Cyrus</td>
+                        <td class="album">The Time of Our Lives</td>
+                        <td>2009</td>
+                        <td>3:22</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#rose">
+                                <img class="album" src="../Images/albums/a_new_journey.jpg" alt="A New Journey cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=WEe-cJwNkhQ" target="_blank">"The Last Rose of Summer"</a></td>
+                        <td>Celtic Woman</td>
+                        <td class="album">A New Journey</td>
+                        <td>2007^^</td>
+                        <td>3:36</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#bridge">
+                                <img class="album" src="../Images/albums/hold_onto_anything.jfif" alt="Hold onto Anything cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=Fhy5ngPOwFc" target="_blank">"The Bridge"</a></td>
+                        <td>Alec Holowka</td>
+                        <td class="album">NITW (OST, Vol. 2) [Hold onto Anything]<span class="stars">*****</span></td>
+                        <td>2017</td>
+                        <td>7:02</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#stupid">
+                                <img class="album" src="../Images/albums/stuff_from_my_brain.jfif" alt="Stuff From My Brain cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=sMMnwyQG2Gg" target="_blank">"STUPID"</a></td>
+                        <td>NOAHFINNCE</td>
+                        <td class="album">STUFF FROM MY BRAIN</td>
+                        <td>2021</td>
+                        <td>2:35</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#therian">
+                                <img class="album" src="../Images/albums/therian_wolf.png" alt="Therian Wolf cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=a6XDkQzdP5o" target="_blank">"Therian Wolf"</a></td>
+                        <td>Autumn J.</td>
+                        <td>(none)****</td>
+                        <td>2023</td>
+                        <td>2:30</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#daft">
+                                <img class="album" src="../Images/albums/disappear_here.jpg" alt="Disappear Here cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=VQ017T_euy0" target="_blank">"Daft Pretty Boys (Explicit)"</a></td>
+                        <td>Bad Suns</td>
+                        <td class="album">Disappear Here</td>
+                        <td>2016</td>
+                        <td>3:07</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#silly">
+                                <img class="album" src="../Images/albums/something_to_give_each_other.jpg" alt="STGEO cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=oO5SXI-b_dg" target="_blank">"Silly"</a></td>
+                        <td>Troye Sivan</td>
+                        <td class="album">Something To Give Each Other</td>
+                        <td>2023</td>
+                        <td>3:38</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#dark">
+                                <img class="album" src="../Images/albums/born_to_die_paradise.jpg" alt="Born To Die cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=dvSZQ4oMHGM" target="_blank">"Dark Paradise"</a></td>
+                        <td>Lana Del Rey</td>
+                        <td class="album">Born To Die - The Paradise Edition</td>
+                        <td>2012</td>
+                        <td>4:03</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#worn">
+                                <img class="album" src="../Images/albums/the_struggle.jpg" alt="The Struggle cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=UUEy8nZvpdM" target="_blank">"Worn"</a></td>
+                        <td>Tenth Avenue North</td>
+                        <td class="album">The Struggle</td>
+                        <td>2012</td>
+                        <td>4:04</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#wedding">
+                                <img class="album" src="../Images/albums/billy_idol.jfif" alt="Billy Idol cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=o5oTrvdNoP4" target="_blank">"White Wedding (Pt. 1)"</a></td>
+                        <td>Billy Idol</td>
+                        <td class="album">Billy Idol</td>
+                        <td>1982</td>
+                        <td>4:12</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#prickly">
+                                <img class="album" src="../Images/albums/nymph_tones.jpg" alt="Nymph Tones cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=h7YMdCv-Xlo" target="_blank">"Prickly Pufferfish"</a></td>
+                        <td>galen tipton</td>
+                        <td class="album">Nymph Tones</td>
+                        <td>2022</td>
+                        <td>1:47</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#cold">
+                                <img class="album" src="../Images/albums/first_glass_beach.png" alt="the first glass beach album cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=ilunKd1M-W4" target="_blank">"cold weather"</a></td>
+                        <td>glass beach</td>
+                        <td class="album">the first glass beach album</td>
+                        <td>2019</td>
+                        <td>2:18</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#cure">
+                                <img class="album" src="../Images/albums/the_gods_we_can_touch.jpg" alt="The Gods We Can Touch cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=K17df81RL9Y" target="_blank">"Cure For Me"</a></td>
+                        <td>AURORA</td>
+                        <td class="album">The Gods We Can Touch</td>
+                        <td>2022</td>
+                        <td>3:21</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="spotify.html#moon">
+                                <img class="album" src="../Images/albums/ambient_i.jfif" alt="Ambient I cover">
+                            </a>
+                        </td>
+                        <td><a href="https://www.youtube.com/watch?v=CyJKo-XQGHg" target="_blank">"Moon Snatcher"</a></td>
+                        <td>Vindkaldr</td>
+                        <td class="album">Ambient I</td>
+                        <td>2015</td>
+                        <td>8:19</td>
+                        <td>No</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="note" id="note">
+                *The name of the album isn't <span class="album">untitled</span>. It literally has no name lol.
+                <br>**Originally composed by Pérotin in the 12th century, performed by the Ensemble in 2003.
+                <br>***The studio original was released in 1973 on Segar's album <span class="album">Back in '72.</span>
+                <br>****This song was released as a single.
+                <br>*****Full album name:
+                    <span class="album">Night in the Woods (Original Soundtrack, Vol. 2) [Hold onto Anything]</span>
+                <br>^Originally released on <em>Midnights</em> as a solo in 2022 and released on <em>Midnights (The Til Dawn Edition)</em> in 2023 with Lana.
+                <br>^^This was originally a poem by Thomas Moore. It was released to the tune of "The Young Man's Dream" in 1813.
+            </p>
+        </div>
+        <hr>
+        <div>
+            <footer>
+                <p>
+                    <a href="#header">Back to top</a>
+                    <br><a href="about_me.html">About me</a>
+                    <br><a href="contact.html">Contact us</a>
+                    <br>Copyright Luc Creations&copy;
+                    <br>Images, videos, and audio are not owned by me. This is a personal project that I am not financially profitting from!
+                    <br>Sponsors:
+                    <br><a href="https://www.coastal.edu/index.php" target="_blank">Coastal Carolina University</a>
+                    <br> <a href="https://www.troyesivan.com/" target="_blank">Troye Sivan</a>
+                    <br><a href="https://classic.animaljam.com/en" target="_blank">Animal Jam Classic</a>
+                    <br><a href="https://transtape.life/" target="_blank">TransTape</a>
+                    <br><a href="https://www.sunbeltrentals.com/" target="_blank">Sunbelt Rentals</a>
+                </p>
+            </footer>
+        </div>
+        <script type="text/Javascript" src="../JavaScript Files/all.js"></script>
+    </body>
+</html>

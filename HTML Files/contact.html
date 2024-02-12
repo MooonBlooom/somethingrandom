@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Lucas Wedge">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="../CSS Files/all.css">
+        <link rel="stylesheet" href="../CSS Files/default_dark.css">
+        <link id="colors" rel="stylesheet" href="../CSS Files/default.css">
+        <title>Contact Us!</title>
+    </head>
+    <body class="container-fluid light">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 id="header">Contact Luc's Theater!</h1>
+                <p class="subtitle">Have a question or comment? You're in the right place!</p>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li id="jump">Jump to:</li>
+                        <li><a href="#submitButton">Submit</a></li>
+                    </ul>
+                </nav>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <button type="button" class="rounded" id="lightModeButton">Light Mode</button>
+                <button type="button" class="rounded" id="darkModeButton">Dark Mode</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <audio controls loop>
+                    <source src="../Audio/phantoms_treasure.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+        <div class="row light_prices rounded bubble">
+            <div class="col-sm-11">
+                <h2>Let's Talk!</h2>
+                <p>** = required</p>
+                <p>THIS SITE ISN'T SECURE! DON'T USE UR PERSONAL INFORMATION!!!!!!!</p>
+                <form action="thanks.html">
+                    <fieldset>
+                        <legend>Personal Info</legend>
+                        <p>
+                            <label for="f_name">First Name**</label>
+                            <input type="text" name="f_name" id="f_name" placeholder="Luz" required>
+                            <label for="l_name">Last Name</label>
+                            <input type="text" name="l_name" id="l_name" placeholder="Noceda">
+                        </p>
+                        <p>
+                            <label for="pronouns">Pronouns</label>
+                            <input type="text" name="pronouns" id="pronouns" placeholder="he/him, she/it/they">
+                        </p>
+                        <p>
+                            <label for="email">Best Email**</label>
+                            <input type="email" name="email" id="email" placeholder="troyethehotboy@hotmail.com" required>
+                        </p>
+                        <p>
+                            <label for="phone">Best Phone Number</label>
+                            <input type="tel" name="phone" id="phone" placeholder="(999) 999-9999">
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Details</legend>
+                        <p>
+                            <label for="urgency">Is This Contact Request Urgent?**</label>
+                            No <input type="range" name="urgency" id="urgency" min="0" max="1" value="0"> Yes
+                        </p>
+                        <p>
+                            <label for="reason">Reason**</label>
+                            <select name="reason" id="reason">
+                                <option value="q_or_c">Question/Comment</option>
+                                <option value="job">Job Opportunity</option>
+                                <option value="web">Issue With Website</option>
+                                <option value="hate">Hate Mail</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label id="hate_explanation" for="explain">Explanation</label>
+                            <br>
+                            <textarea name="explain" id="explain" rows="5" cols="25">I'm contacting you because...</textarea>
+                        </p>
+                    </fieldset>
+                    <button type="submit" class="rounded" id="submitButton">Submit!</button>
+                    <button type="reset" class="rounded" id="resetButton">Reset</button>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <footer>
+                <p>
+                    <a href="#header">Back to top</a>
+                    <br><a href="about_me.html">About me</a>
+                    <br><a href="contact.html">Contact us</a>
+                    <br>Copyright Luc Creations&copy; 2023
+                    <br>Images, videos, and audio are not owned by me. This is a personal project that I am not financially profitting from!
+                    <br>Sponsors:
+                    <br><a href="https://www.coastal.edu/index.php" target="_blank">Coastal Carolina University</a>
+                    <br> <a href="https://www.troyesivan.com/" target="_blank">Troye Sivan</a>
+                    <br><a href="https://classic.animaljam.com/en" target="_blank">Animal Jam Classic</a>
+                    <br><a href="https://transtape.life/" target="_blank">TransTape</a>
+                    <br><a href="https://www.sunbeltrentals.com/" target="_blank">Sunbelt Rentals</a>
+                </p>
+            </footer>
+        </div>
+    <script type="text/Javascript" src="../JavaScript Files/all.js"></script>
+    <script type="text/Javascript" src="../JavaScript Files/contact.js"></script>
+    </body>
+</html>
