@@ -1,0 +1,47 @@
+body{background-color: #5c2500;}
+h1, footer p, hr, #jump{color: #fbd8b2;}
+h2, summary, legend, img, .text{color: #964b00;}
+p, li, label, summary:hover, th, td{color: #cc6600;}
+a:visited:hover, a:visited img:hover{color: #e1c0ff;}
+.bubble
+{
+    padding: 10px;
+    margin: 5px;
+    border: 6px solid;
+    background-color: #9ececf;
+    border-color: #114f50;
+}
+#Coastal{color: #006f71;}
+#prank
+{
+    width: 40px;
+    height: 40px;
+    margin-top: 20%;
+}
+input[type=range]{accent-color: #259f00;}
+input[type=range].urgent{accent-color: #990000;}
+th{color:#5c2500;}
+tr:hover a:hover{color: #9ffcff;}
+tr:hover a:visited:hover{color: #e6cbff;}
+tr:nth-child(even){background-color: #2e1100;}
+th, tr:hover{background-color: #943b00;}
+.stars{font-style: none;}
+.note{font-size: small;}
+.flag
+{
+    border: none;
+    width: 40px;
+    height: 25px;
+}
+.album{font-style: italic;}
+img.album
+{
+    border: none;
+    border-radius: 0px;
+    width: 50px;
+    height: 50px;
+}
+a, a img{color: #5f9ea0;}
+a:hover, a img:hover{color: #9ae4e8;}
+a:visited, a:visited img{color: #a071cb;}
+a:visited:hover, a:visited img:hover{color: #d5a9ff;}

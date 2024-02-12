@@ -1,0 +1,7 @@
+body{background-color: #ff6666;}
+h1, hr, #jump, p, li{color: #8c0000;}
+h2, summary, img, .text{color: #370000;}
+a, a img{color: #0000ee;}
+a:hover, a img:hover{color: #72bcbf;}
+a:visited, a:visited img{color: #551a8b;}
+a:visited:hover, a:visited img:hover{color: #d1a0ff;}

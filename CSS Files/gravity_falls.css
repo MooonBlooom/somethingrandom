@@ -1,0 +1,10 @@
+body{background-color: #cfa499;}
+h1, footer p, hr, #jump{color:#4e332d;}
+h2, summary, img, .text{color: #6c4b44;}
+p, li{color: #a17c74;}
+a:visited:hover{color: #009b00;}
+a:hover{color: #7a7af1;}
+a, a img{color: #0000ee;}
+a:hover, a img:hover{color: #72bcbf;}
+a:visited, a:visited img{color: #551a8b;}
+a:visited:hover, a:visited img:hover{color: #d1a0ff;}
